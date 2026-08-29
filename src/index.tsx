@@ -14,11 +14,11 @@ import { createIconSet } from '@react-native-vector-icons/common';
 import glyphMap from '../glyphmaps/PhosphorIcons.json';
 import type { ComponentProps } from 'react';
 
- const RegularIcon = createIconSet(glyphMap, {
-  postScriptName: 'PhosphorIcons',
-  fontFileName: 'PhosphorIcons.ttf',
+const RegularIcon = createIconSet(glyphMap, {
+  postScriptName: 'Phosphor',
+  fontFileName: 'Phosphor.ttf',
 });
- const FillIcon = createIconSet(glyphMap, {
+const FillIcon = createIconSet(glyphMap, {
   postScriptName: 'PhosphorIcons',
   fontFileName: 'PhosphorIcons.ttf',
 });

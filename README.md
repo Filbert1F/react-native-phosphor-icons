@@ -7,13 +7,13 @@ See the [React Native Vector Icons README](../../README.md) for more details.
 ## Installation
 
 ```sh
-npm install @react-native-vector-icons/phosphor-icons
+npm install @filbert-fl/phosphor-icons
 ```
 
 ## Usage
 
 ```jsx
-import { PhosphorIcons } from '@react-native-vector-icons/phosphor-icons';
+import { PhosphorIcons } from '@filbert-fl/phosphor-icons';
 
 // ...
 
@@ -28,7 +28,7 @@ This package ships an [Expo config plugin](../../docs/SETUP-EXPO.md). Add it to 
 ```json
 {
   "expo": {
-    "plugins": ["@react-native-vector-icons/phosphor-icons"]
+    "plugins": ["@filbert-fl/phosphor-icons"]
   }
 }
 ```
