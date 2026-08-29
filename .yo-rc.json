@@ -1,0 +1,50 @@
+{
+  "generator-react-native-vector-icons": {
+    "packageName": "phosphor-icons",
+    "name": "Phosphor Icons",
+    "className": "PhosphorIcons",
+    "upstreamFont": "@phosphor-icons/web",
+    "meta": {
+      "defaultStyleName": "regular",
+      "styleNames": [
+        "regular",
+        "fill"
+      ],
+      "styles": {
+        "regular": {
+          "family": "PhosphorIcons",
+          "name": "Phosphor.ttf",
+          "weight": 400
+        },
+        "fill": {
+          "family": "PhosphorIcons-Fill",
+          "name": "Phosphor-Fill.ttf",
+          "weight": 400
+        }
+      }
+    },
+    "buildSteps": {
+      "preScript": {
+        "script": "mkdir -p glyphmaps && cp ../../config.json glyphmaps/PhosphorIcons.json"
+      },
+      "copyFont": {
+        "location": [
+          [
+            "node_modules/@phosphor-icons/web/src/regular/Phosphor.ttf",
+            "Phosphor"
+          ],
+          [
+            "node_modules/@phosphor-icons/web/src/fill/Phosphor-Fill.ttf",
+            "Phosphor-Fill"
+          ]
+        ]
+      }
+    },
+    "versions": [
+      {
+        "rnvi": "0.0.1",
+        "upstream": "2.1.2"
+      }
+    ]
+  }
+}
