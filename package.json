@@ -1,5 +1,5 @@
 {
-  "name": "@react-native-vector-icons/phosphor-icons",
+  "name": "@filbert-fl/phosphor-icons",
   "version": "0.0.1",
   "description": "Phosphor Icons font for react native vector icons",
   "source": "./src/index.ts",
@@ -79,13 +79,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/oblador/react-native-vector-icons.git",
+    "url": "git+https://github.com/oblador/react-native-vector-icons.git",
     "directory": "packages/phosphor-icons"
   },
-  "author": {
-    "name": "Joel Arvidsson",
-    "email": "joel@oblador.se"
-  },
+  "author": "Joel Arvidsson <joel@oblador.se>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/oblador/react-native-vector-icons/issues"
@@ -96,7 +93,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@react-native-vector-icons/common": "workspace:^"
+    "@react-native-vector-icons/common": "*"
   },
   "devDependencies": {
     "@types/react": "^19.1.0",
@@ -147,5 +144,8 @@
   "create-react-native-library": {
     "type": "library",
     "version": "0.41.2"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
