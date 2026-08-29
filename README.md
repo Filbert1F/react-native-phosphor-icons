@@ -13,8 +13,6 @@ npm install @react-native-vector-icons/phosphor-icons
 ## Usage
 
 ```jsx
-import { PhosphorIcons } from '@react-native-vector-icons/phosphor-icons/static';
-// or with dynamic font loading (see the Expo setup guide for details)
 import { PhosphorIcons } from '@react-native-vector-icons/phosphor-icons';
 
 // ...
